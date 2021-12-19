@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+}
+.item {
+  display: block;
+  width: 170px;
+  background-color: brown;
+}
+
+.img {
+  width: 170px;
+  background-color: coral;
+}
