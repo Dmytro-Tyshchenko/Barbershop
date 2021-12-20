@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>BurberShop</title>
 </head>
@@ -15,30 +20,30 @@
     <img src="./img/Logo.svg" alt="Логотип Компании">
  <section>
      <nav>
-        <ul>
+        <ul class="header-menu ul-basis">
             <li>
-                <a href="#about">О нас</a> 
+                <a class="a-basis" href="#about">О нас</a> 
             </li>
             <li>
-                <a href="#attendance-price">Услуги и цены</a>
+                <a class="a-basis" href="#attendance-price">Услуги и цены</a>
             </li>
             <li>
-                <a href="#masters">Мастера</a>
+                <a class="a-basis"  href="#masters">Мастера</a>
             </li>
             <li>
-                <a href="#contact">Контакты</a>
-            </li>
+                <a class="a-basis" href="#contact">Контакты</a>
+            </li> 
         </ul>
     </nav>
 </section>
 <div>
-    <ul>
+    <ul class="h-m-extra ul-basis">
         <li> 
-            <a href="telto:+380441111111">+38 044 111 11 11</a>
+            <a class="a-basis" href="telto:+380441111111">+38 044 111 11 11</a>
         </li>
         <li>
             <a href=""></a>
-            <button type="button">онлайн-запись</button>
+            <button class="button" type="button">онлайн-запись</button>
         </li>
     </ul>
 </div>
@@ -46,28 +51,30 @@
 <!---------------------------------MAIN-->
 <main>
     <section>
-    <ul>
-    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
-    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrre">Youtube</a>
+    <ul class="ul-basis">
+    <a  class="a-basis social-link"href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a  class="a-basis"href="https://www.youtube.com/" target="_blank" rel="noopener noreferrre">Youtube</a>
     </ul>
 <!----Hero-->
 
- <p lang="en">A hair salon for men in Kyiv</p>
- <h1 lang="en">BarberShop</h1>
-<p>
+ <p class="hero-slogan" lang="en">A hair salon for men in Kyiv</p>
+ <h1 class="hero-name" lang="en">BarberShop</h1>
+<p class="hero-title" >
     Мы эксперты в модных мужских стрижках.
     Работаем быстро, осторожно и со вкусом.
 </p>
 </section>
-<ul>
+
+<!-- Page 1 -->
+
+<ul class="ul-basis">
     <li><img src="./img/img1.jpg" alt="мужскую шею готовят к бритью"></li>
     <li><img src="./img/img2.jpg" alt="мужскую шею бреют бритвой"></li>
 </ul>
-<!-- Page 1 -->
 
 <section>
-    <p id="about">О нас</p>
-    <h3>Лучший Барбершоп
+    <p class="id-point" id="about">О нас</p>
+    <h3 class="h3-group" >Лучший Барбершоп <br>
     твоего города</h3>
 <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
 
@@ -78,14 +85,14 @@
     готовы усовершенствовать каждого, кто к нам приходит!
     </p>
 </section>
-<button type="button">онлайн-запись</button>
+<button class="button" type="button">онлайн-запись</button>
     <!-- Page 2 -->
 
 <section>
-<p id="attendance-price">Проведи время в компании лучших мастеров</p> 
-<h3>Услуги и цены</h3>
+<p class="id-point" id="attendance-price">Проведи время в компании лучших мастеров</p> 
+<h3 class="h3-group">Услуги и цены</h3>
 
-<ul>
+<ul class="ul-basis">
     <li> <p>Мужская стрижка</p> <p>от 300 грн.</p>  
     </li>
     <li> <p>Стрижка бороды</p>  <p>от 200 гнр.</p>  
@@ -96,7 +103,7 @@
     </li>
 </ul>
 
-<ul>
+<u class="ul-basis"l>
     <li> <p>Cтрижка у стажера </p>    <p> от 50 грн.</p>  
      </li>
     <li> <p>Стрижка под насадку</p>     <p>от 200 грн.</p> 
@@ -107,13 +114,13 @@
     </li>
 </ul>
 </section>
-<button type="button">онлайн-запись</button>
+<button class="button" type="button">онлайн-запись</button>
     <!-- Page 3 -->
 
     <p></p>
     <ul></ul>
     
-<ul>
+<ul class="ul-basis">
     <li><img src="./img/img3.jpg" Довольных клиентов в день alt="" width="170">
     <span>600 <sup>+</sup></span>
     <p>Довольных клиентов в день</p></li>
@@ -129,10 +136,10 @@
 </ul>
 
 <section>
-<p id=masters> 
+<p class="id-point"> 
 старая традиционная школа
 </p>
-<h3>
+<h3 class="h3-group">
 Почему приходят именно к нам?
 </h3>
 
@@ -140,13 +147,12 @@
 </section>
 <!-- Page 4 -->
 <section>
-    <p>для настоящих ценителей атмосферы</p>
-    <h3>Наши мастера</h3>
-    <ul>
+    <p class="id-point" id="#masters">для настоящих ценителей атмосферы</p>
+    <h>Наши мастера</h>
+    <ul class="ul-basis">
         <li>
         <img src="./img/img4.jpg" alt="мастер за работой" width="370">
-        <h4 lang="en">John Smith
-         </h4>
+        <h4 lang="en">John Smith</h4>
         <p lang="en">Extreme Barber</p>
         <a href=""> <img src="" alt=""></a>
         <a href=""> <img src="" alt=""></a>
@@ -154,16 +160,14 @@
         <a href=""> <img src="" alt=""></a>
         </li>
         <li> <img src="./img/img5.jpg" alt="мастер за работой" width="370"></li>
-        <h4 lang="en">Michele Doe
-         </h4>
+        <h4 lang="en">Michele Doe</h4>
         <p lang="en">Extreme Barber</p>
         <a href=""> <img src="" alt=""></a>
         <a href=""> <img src="" alt=""></a>
         <a href=""> <img src="" alt=""></a>
         <a href=""> <img src="" alt=""></a>
         <li> <img src="./img/img6.jpg" alt="мастер за работой" width="370"></li>
-        <h4 lang="en">Extreme Barber
-         </h4>
+        <h4 lang="en">Extreme Barber</h4>
         <p lang="en">Extreme Barber</p>
         <a href=""> <img src="" alt=""></a>
         <a href=""> <img src="" alt=""></a>
@@ -173,8 +177,8 @@
 </section>
 <!-- Page 5 -->
 <section>
-<p>На латинском языке “барба” означает “борода”</p>
-<ul>
+<p class="id-point">На латинском языке “барба” означает “борода”</p>
+<ul class="ul-basis">
     <li class="test"><img src="./img/img7.jpg" alt="мастер стрижет" width="270" height="360">
     </li>
     <li><img src="./img/img8.jpg" alt="мастер наносит крем для бритья" width="270">
@@ -196,15 +200,14 @@
     
 <section>
 <h2>Контакты</h2>
-
 <address id="contact">
-    <ul>
-        <li><a href="https://goo.gl/maps/LYB3FUo2vSyrSnrb9">
+    <ul class="ul-basis">
+        <li><a  class="a-basis" href="https://goo.gl/maps/LYB3FUo2vSyrSnrb9">
             ул. Васильковая, 7А <br>
             Киев, 08132</a> 
         </li>
-        <li><a href="telto:+380441111111">+38 044 111 11 11</a></li>
-        <li><a href="mailto:barbershop@email.com">barbershop@email.com</a></li>
+        <li><a class="a-basis"  href="telto:+380441111111">+38 044 111 11 11</a></li>
+        <li><a  class="a-basis" href="mailto:barbershop@email.com">barbershop@email.com</a></li>
     </ul>
      </address>
 
@@ -217,8 +220,8 @@
 <footer>
     <p> &copy; Copyright 2020 </p>
     <div>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrre">Youtube</a>
+        <a class="a-basis" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a class="a-basis" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrre">Youtube</a>
     </div>
 </footer>
 </body>
