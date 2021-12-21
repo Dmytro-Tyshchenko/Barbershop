@@ -14,7 +14,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* -------BASIS */
+/* -------------------------BASIS */
 
 .ul-basis {
   list-style: none;
@@ -61,7 +61,7 @@ body {
 }
 .hero-name {
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 72px;
   line-height: 1.18;
   letter-spacing: 0.05em;
@@ -72,14 +72,14 @@ body {
   line-height: 1.67;
   color: var(--hero-text-color2);
 }
-
+---------------------------------------------------------
 .social-link {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   color: var(--accent-color);
 }
-
+------------------------------------------------------------
 .id-point {
   font-weight: 600;
   font-size: 11px;
@@ -92,9 +92,39 @@ body {
 .h3-group {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 42px;
   line-height: 1.16;
   letter-spacing: 0.05em;
   color: var(--hero-text-color3);
 }
+.service-table {
+  font-size: 18px;
+  line-height: 1.66;
+  color: var(--hero-text-color2);
+}
+-----------------------------------------------
+.figure-page {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.35;
+  letter-spacing: 0.05em;
+  color: blue;
+}
+.plus-accent {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.37;
+  color: var(--accent-color);
+}
+------------------------------------------------
+
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+text-align: center;
+
+color: #303030;
