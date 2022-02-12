@@ -1,0 +1,56 @@
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.site-link {
+  @include font($fs: 12px, $fw: 600, $lh: 1.33, $ls: 0.1em);
+  color: var(--white-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.header-contact {
+  @include font($fs: 12px, $fw: 600, $lh: 1.33, $ls: 0.1em);
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 69.4px;
+}
+
+.site-list {
+  display: flex;
+}
+.site-list-item:not(:first-child) {
+  margin-left: 40px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+
+  margin-left: 318.82px;
+}
+.contact-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.contact-link {
+  @include font($fs: 12px, $fw: 600, $lh: 1.33, $ls: 0.1em);
+  text-transform: uppercase;
+  color: #ffffff;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}

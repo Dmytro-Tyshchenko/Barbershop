@@ -9,86 +9,99 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <title>BurberShop</title>
 </head>
 
 
     <body>
         <!-----------------------HEADER-->
-<header>
-    <img src="./img/Logo.svg" alt="Логотип Компании">
- <section>
-     <nav>
-        <ul class="header-menu ul-basis">
-            <li>
-                <a class="a-basis" href="#about">О нас</a> 
-            </li>
-            <li>
-                <a class="a-basis" href="#attendance-price">Услуги и цены</a>
-            </li>
-            <li>
-                <a class="a-basis"  href="#masters">Мастера</a>
-            </li>
-            <li>
-                <a class="a-basis" href="#contact">Контакты</a>
-            </li> 
-        </ul>
-    </nav>
-</section>
-<div>
-    <ul class="h-m-extra ul-basis">
-        <li> 
-            <a class="a-basis" href="telto:+380441111111">+38 044 111 11 11</a>
-        </li>
-        <li>
-            <a href=""></a>
-            <button class="button" type="button">онлайн-запись</button>
-        </li>
-    </ul>
-</div>
+<header class="header">
+    <div class="container header-container">
+            <a class="link logo" href="">
+                <img src="./images/Logo.svg" alt="логотип компании">
+            </a>
+                <nav class="site-nav">
+                    <ul class="site-list list">
+                        <li class="site-list-item">
+                            <a class="link site-link" href="#about">О нас</a>
+                        </li>
+                        <li class="site-list-item">
+                            <a class="link site-link" href="#attendance-price">Услуги и цены</a>
+                        </li>
+                        <li class="site-list-item">
+                            <a class="link site-link" href="#masters">Мастера</a>
+                        </li>
+                        <li class="site-list-item">
+                            <a class="link site-link" href="#contact">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            <div>
+                <ul class="contact list">
+                    <li class="contact-item">
+                        <a class="link contact-link" href="telto:+380441111111">+38 044 111 11 11</a>
+                    </li>
+                    <li class="contact-item">
+                        <button class="btn" type="button">онлайн-запись</button>
+                    </li>
+                </ul>
+            </div>
+    </div>
+
 </header>
 <!---------------------------------MAIN-->
 <main>
     <section>
-    <ul class="ul-basis">
-    <a  class="a-basis social-link"href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
-    <a  class="a-basis"href="https://www.youtube.com/" target="_blank" rel="noopener noreferrre">Youtube</a>
-    </ul>
-<!----Hero-->
+        <div class="container">
+                <ul class="ul-basis">
+                    <a class="a-basis social-link" href="https://www.instagram.com/" target="_blank"
+                        rel="noopener noreferrer">Instagram</a>
+                    <a class="a-basis" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrre">Youtube</a>
+                </ul>
+                <!----Hero-->
+                
+                <p class="hero-slogan" lang="en">A hair salon for men in Kyiv</p>
+                <h1 class="hero-name" lang="en">BarberShop</h1>
+                <p class="hero-title">
+                    Мы эксперты в модных мужских стрижках.
+                    Работаем быстро, осторожно и со вкусом.
+                </p>
+        </div>
 
- <p class="hero-slogan" lang="en">A hair salon for men in Kyiv</p>
- <h1 class="hero-name" lang="en">BarberShop</h1>
-<p class="hero-title" >
-    Мы эксперты в модных мужских стрижках.
-    Работаем быстро, осторожно и со вкусом.
-</p>
 </section>
 
 <!-- Page 1 -->
 
-<ul class="ul-basis">
-    <li><img src="./img/img1.jpg" alt="мужскую шею готовят к бритью"></li>
-    <li><img src="./img/img2.jpg" alt="мужскую шею бреют бритвой"></li>
-</ul>
 
 <section>
+   <div class="container">
+        <ul class="ul-basis">
+            <li><img src="./img/img1.jpg" alt="мужскую шею готовят к бритью"></li>
+            <li><img src="./img/img2.jpg" alt="мужскую шею бреют бритвой"></li>
+        </ul>
     <p class="id-point" id="about">О нас</p>
-    <h3 class="h3-group" >Лучший Барбершоп <br>
-    твоего города</h3>
-<p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
+    <h3 class="h3-group">Лучший Барбершоп <br>
+        твоего города</h3>
+    <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
 
-<p>
-    Мы команда, которая никогда не останавливается на достигнутом
-    и жаждет перемен. И когда ты попадешь в руки нашего мастера,
-    то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда
-    готовы усовершенствовать каждого, кто к нам приходит!
+    <p>
+        Мы команда, которая никогда не останавливается на достигнутом
+        и жаждет перемен. И когда ты попадешь в руки нашего мастера,
+        то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы
+        всегда
+        готовы усовершенствовать каждого, кто к нам приходит!
     </p>
-</section>
+
 <button class="button" type="button">онлайн-запись</button>
+
+</div>
+</section>
     <!-- Page 2 -->
 
 <section>
+    <div class="container">
 <p class="id-point" id="attendance-price">Проведи время в компании лучших мастеров</p> 
 <h3 class="h3-group">Услуги и цены</h3>
 
@@ -110,10 +123,14 @@
     <li> <p>Камуфлирование седины</p>     <p>от 200 грн.</p>  
     </li>
 </ul>
-</section>
 <button class="button" type="button">онлайн-запись</button>
-    <!-- Page 3 -->
+</div>
+</section>
 
+
+    <!-- Page 3 -->
+<section>
+    <div class="container">
 <ul class="ul-basis">
     <li><img src="./img/img3.jpg" Довольных клиентов в день alt="" width="170">
     <span class="figure-page">600 <sup class="plus-accent">+</sup></span>
@@ -129,14 +146,16 @@
     <p class="figure-page3">Подарков постоянным клиентам</p></li>
 </ul>
 
-<section>
+
 <p class="id-point"> старая традиционная школа</p>
 <h3 class="h3-group">Почему приходят именно к нам?</h3>
 
 <p>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
+</div>
 </section>
 <!-- Page 4 -->
 <section>
+    <div class="container">
     <p class="id-point" id="#masters">для настоящих ценителей атмосферы</p>
     <h>Наши мастера</h>
     <ul class="ul-basis">
@@ -164,9 +183,11 @@
         <a href=""> <img src="" alt=""></a>
         <a href=""> <img src="" alt=""></a>
     </ul>
+    </div>
 </section>
 <!-- Page 5 -->
 <section>
+    <div class="container">
 <p class="id-point">На латинском языке “барба” означает “борода”</p>
 <ul class="ul-basis">
     <li class="test"><img src="./img/img7.jpg" alt="мастер стрижет" width="270" height="360">
@@ -178,17 +199,16 @@
     <li><img src="./img/img10.jpg" alt=" мастер делает оконтовку затилка" width="270">
     </li>
 </ul>
-</section>
 
 
-    <section>
+
+    
     <h2>Онлайн-запись</h2>
     <input type="text" placeholder="Имя*">
     <input type="number" placeholder="Телефон*">
     <input type="text" placeholder="сообщение">
-</section>
+
     
-<section>
 <h2>Контакты</h2>
 <address id="contact">
     <ul class="ul-basis">
@@ -201,17 +221,21 @@
     </ul>
      </address>
 
-   <section><span>время работы</span>
+       <span>время работы</span>
 <p>Ежедневно с 9:00 до 22:00</p>
+</div>
 </section>
+
 </main>
 
 <!---------------------------------FOOTER-->
 <footer>
+    <div class="container">
     <p> &copy; Copyright 2020 </p>
     <div>
         <a class="a-basis" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
         <a class="a-basis" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrre">Youtube</a>
+    </div>
     </div>
 </footer>
 </body>

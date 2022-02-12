@@ -1,0 +1,14 @@
+@import './utils/var';
+@import './base/reset';
+@import './utils/mixin';
+@import './base/common';
+@import './utils/hidden';
+
+@import './components/container';
+@import './components/btn';
+
+@import './layuot/header';
+
+body {
+  background-color: green;
+}
