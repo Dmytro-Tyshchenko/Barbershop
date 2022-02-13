@@ -1,11 +1,25 @@
 .hero-container {
   display: flex;
-  padding: 0;
 }
-
+.hero-left {
+  display: flex;
+  align-items: flex-end;
+  width: 93px;
+  padding-left: 23px;
+  padding-bottom: 40px;
+}
 .hero-social {
   display: flex;
-  transform: rotate(-89.83deg);
+  align-items: center;
+  transform: rotate(-90deg) translate(-15px);
+  transform-origin: top left;
+  &::before {
+    content: '';
+    height: 1px;
+    width: 63px;
+    margin-right: 40px;
+    background-color: currentColor;
+  }
 }
 .hero-item:not(:last-child) {
   margin-right: 40px;
@@ -16,6 +30,7 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     color: var(--accent-color);

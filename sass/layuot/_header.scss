@@ -1,4 +1,7 @@
 .header {
+  position: absolute;
+  width: 100%;
+  left: 0;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -54,7 +57,7 @@
 .contact-link {
   @include font($fs: 12px, $fw: 600, $lh: 1.33, $ls: 0.1em);
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
 
   transition-property: color;
   transition-duration: 250ms;
