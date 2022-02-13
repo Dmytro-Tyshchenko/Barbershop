@@ -6,9 +6,17 @@
 .site-link {
   @include font($fs: 12px, $fw: 600, $lh: 1.33, $ls: 0.1em);
   color: var(--white-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     color: var(--accent-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -20,10 +28,8 @@
 
 .header-container {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
-
 .logo {
   margin-right: 69.4px;
 }
@@ -49,8 +55,16 @@
   @include font($fs: 12px, $fw: 600, $lh: 1.33, $ls: 0.1em);
   text-transform: uppercase;
   color: #ffffff;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     color: var(--accent-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

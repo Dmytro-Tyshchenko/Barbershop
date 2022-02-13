@@ -54,20 +54,23 @@
 <!---------------------------------MAIN-->
 <main>
     <section>
-        <div class="container">
-                <ul class="ul-basis">
-                    <a class="a-basis social-link" href="https://www.instagram.com/" target="_blank"
-                        rel="noopener noreferrer">Instagram</a>
-                    <a class="a-basis" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrre">Youtube</a>
+        <div class="container hero-container">
+                <ul class="list hero-social">
+                    <li class="hero-item"><a class="link hero-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    <li class="hero-item"><a class="link hero-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferre">Youtube</a></li>
+                    
+                  
                 </ul>
                 <!----Hero-->
-                
-                <p class="hero-slogan" lang="en">A hair salon for men in Kyiv</p>
+                <div class="hero-content">
+                    <p class="pre-title" lang="en">A hair salon for men in Kyiv</p>
                 <h1 class="hero-name" lang="en">BarberShop</h1>
                 <p class="hero-title">
                     Мы эксперты в модных мужских стрижках.
                     Работаем быстро, осторожно и со вкусом.
                 </p>
+            </div>
+              
         </div>
 
 </section>
@@ -75,18 +78,21 @@
 <!-- Page 1 -->
 
 
-<section>
-   <div class="container">
-        <ul class="ul-basis">
-            <li><img src="./img/img1.jpg" alt="мужскую шею готовят к бритью"></li>
-            <li><img src="./img/img2.jpg" alt="мужскую шею бреют бритвой"></li>
+<section class="sectionAbout">
+   <div class="container about-container">
+        <ul class="list about-list">
+            <li class="about-item">
+                <img src="./images/img1.jpg" alt="мужскую шею готовят к бритью" width="270"></li>
+            <li class="about-item">
+                <img src="./images/img2.jpg" alt="мужскую шею бреют бритвой" width="270">
+            </li >
         </ul>
-    <p class="id-point" id="about">О нас</p>
-    <h3 class="h3-group">Лучший Барбершоп <br>
-        твоего города</h3>
-    <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
-
-    <p>
+        <div class="about-content">
+            <p class="pre-title about-pre-title id-point" id="about">О нас</p>
+            <h3 class="about-name">Лучший Барбершоп <br>
+                твоего города</h3>
+            <p class="about-title">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>   
+    <p class="about-text">
         Мы команда, которая никогда не останавливается на достигнутом
         и жаждет перемен. И когда ты попадешь в руки нашего мастера,
         то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы
@@ -94,63 +100,94 @@
         готовы усовершенствовать каждого, кто к нам приходит!
     </p>
 
-<button class="button" type="button">онлайн-запись</button>
-
+<button class="btn" type="button">онлайн-запись</button>
+</div>
 </div>
 </section>
     <!-- Page 2 -->
 
-<section>
+<section class="price">
     <div class="container">
-<p class="id-point" id="attendance-price">Проведи время в компании лучших мастеров</p> 
-<h3 class="h3-group">Услуги и цены</h3>
-
-<ul  class="ul-basis service-table">
-    <li> <p>Мужская стрижка</p> <p>от 300 грн.</p>  
+<p class="pre-title price-pre-title id-point" id="attendance-price">Проведи время в компании лучших мастеров</p> 
+<h3 class="price-name">Услуги и цены</h3>
+<div class="price-container">
+<ul class="list price-list-left">
+    <li class="price-item">
+        <p class="price-text">Мужская стрижка</p>
+        <p class="price-text">от 300 грн.</p>
     </li>
-    <li> <p>Стрижка бороды</p>  <p>от 200 гнр.</p>  
+    <li class="price-item">
+        <p class="price-text">Стрижка бороды</p>
+        <p class="price-text">от 200 грн.</p>
     </li>
-    <li> <p>Стрижка усов </p>   <p>от 200 гнр.</p>  
+    <li class="price-item">
+        <p class="price-text">Стрижка усов </p>
+        <p class="price-text">от 200 грн.</p>
     </li>
-    <li> <p>Бритье опасной бритвой</p>  <p>от 200 гнр.</p> 
+    <li class="price-item">
+        <p class="price-text">Бритье опасной бритвой</p>
+        <p class="price-text">от 200 грн.</p>
     </li>
 </ul>
 
-<ul class="ul-basis service-table">
-    <li> <p>Cтрижка у стажера </p> <p>от 50 грн.</p>  </li>
-    <li> <p>Стрижка под насадку</p>     <p>от 200 грн.</p> </li>
-    <li> <p>Детская стрижка (до 12 лет)</p> <p>от 300 грн.</p>  <li>
-    <li> <p>Камуфлирование седины</p>     <p>от 200 грн.</p>  
+<ul class="list price-list-right">
+    <li class="price-item">
+        <p class="price-text">Cтрижка у стажера </p>
+        <p class="price-text">от 50 грн.</p>
+    </li>
+    <li class="price-item">
+        <p class="price-text">Стрижка под насадку</p>
+        <p class="price-text">от 200 грн.</p>
+    </li>
+    <li class="price-item">
+        <p class="price-text">Детская стрижка (до 12 лет)</p>
+        <p class="price-text">от 300 грн.</p>
+    <li>
+    <li class="price-item">
+        <p class="price-text">Камуфлирование седины</p>
+        <p class="price-text">от 200 грн.</p>
     </li>
 </ul>
-<button class="button" type="button">онлайн-запись</button>
+</div>
+
+<button class="btn price-btn" type="button">онлайн-запись</button>
 </div>
 </section>
 
 
     <!-- Page 3 -->
-<section>
-    <div class="container">
-<ul class="ul-basis">
-    <li><img src="./img/img3.jpg" Довольных клиентов в день alt="" width="170">
-    <span class="figure-page">600 <sup class="plus-accent">+</sup></span>
-    <p class="text-page3">Довольных клиентов в день</p></li>
-    <li><img src="./img/img3.jpg" Довольных клиентов в день alt="" width="170">
-    <span class="figure-page3">50 <sup class="plus-accent">+</sup></span>
-    <p class="text-page3" >Наград за отличный сервис</p></li>
-    <li><img src="./img/img3.jpg" Довольных клиентов в день alt="" width="170">
-    <span class="figure-page3">20 <sup class="plus-accent">+</sup> </span>
-    <p class="text-page3">Лучших мастеров Киева</p></li>
-    <li><img src="./img/img3.jpg" Довольных клиентов в день alt="" width="170">
-    <span class="figure-page3">100 <sup class="plus-accent">+</sup></span>
-    <p class="figure-page3">Подарков постоянным клиентам</p></li>
-</ul>
+<section class="benefits">
+    <div class="container benefits-container">
+        <div class="benefits-leftBlock">
+            <ul class="list benefits-list">
+                <li class="benefits-item">
+                    <span class="benefits-figure">600 <sup class="benefits-plusSign">+</sup></span>
+                    <p class="benefits-text">Довольных клиентов в день</p>
+                </li>
+                <li class="benefits-item">
+                    <span class="benefits-figure">50 <sup class="benefits-plusSign">+</sup></span>
+                    <p class="benefits-text">Наград за отличный сервис</p>
+                </li>
+                <li class="benefits-item">
+                    <span class="benefits-figure">20 <sup class="benefits-plusSign">+</sup> </span>
+                    <p class="benefits-text">Лучших мастеров Киева</p>
+                </li>
+                <li class="benefits-item">
+                    <span class="benefits-figure">100 <sup class="benefits-plusSign">+</sup></span>
+                    <p class="benefits-text">Подарков постоянным клиентам</p>
+                </li>
+            </ul>
+        </div>
 
 
-<p class="id-point"> старая традиционная школа</p>
-<h3 class="h3-group">Почему приходят именно к нам?</h3>
+<div>
+<p class="id-point pre-title benefits-pre-title"> старая традиционная школа</p>
+<h3 class="benefits-name">Почему приходят именно к нам?</h3>
 
-<p>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
+<p class="benefits-title">О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.
+</p>
+</div>
+
 </div>
 </section>
 <!-- Page 4 -->
