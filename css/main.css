@@ -1,5 +1,6 @@
 :root {
-  --accent-color: #ff6c00;
+  --accent-color: #ff6a00;
+  --accent-color-transperant: rgba(255, 106, 0, 0.747);
   --paragraph-color: #555;
   --white-color: #fff;
   --hero-text-color: rgba(157, 164, 189, 0.6);
@@ -680,6 +681,42 @@ body {
   font-family: Raleway;
   margin-bottom: 44px;
   color: #303030;
+}
+
+.backdrop-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.backdrop {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  background-color: var(--accent-color-transperant);
+  color: var(--white-color);
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition-duration: 250ms linear;
+          transition-duration: 250ms linear;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: auto;
+}
+
+.masters-item:hover .backdrop {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  -webkit-transition-duration: 250ms linear;
+          transition-duration: 250ms linear;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .masters-item-name {
