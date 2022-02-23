@@ -129,10 +129,6 @@ body {
 }
 
 .modal-name {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 1.16;
-  letter-spacing: 0.05em;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -159,10 +155,6 @@ body {
 }
 
 .modal-label {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
   text-align: start;
   margin-bottom: 4px;
 }
@@ -195,10 +187,6 @@ body {
 }
 
 .modal-textarea {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.85;
-  letter-spacing: 0.02em;
   width: 100%;
   min-height: 100px;
   border: 1px solid #999999;
@@ -221,6 +209,100 @@ body {
 
 .modal-form .form-btn:hover {
   color: #fff;
+}
+
+.modalMap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 90vw;
+  height: 90vh;
+  background-color: var(--accent-color);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.modalMapContainer {
+  padding: 60px 20px 20px 20px;
+}
+
+.modalMap__title {
+  margin-bottom: 30px;
+  padding-left: 30px;
+  color: var(--accent-color);
+}
+
+.mapBox {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.modalMap__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modalMap__item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.3);
+  background-color: var(--accent-color);
+  width: 350px;
+  height: 350px;
+}
+
+.modalMap__box .modalMap__item {
+  margin-bottom: 20px;
+}
+
+.modalMap__itemTitle {
+  background: var(--accent-color);
+  color: var(--accent-color);
+  padding: 10px 70px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.modalMap__itemTitle--franchise {
+  background-color: var(--accent-color);
+}
+
+.modalMapContainer .modal__logo {
+  margin: 0;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 90px;
+  height: 25px;
 }
 
 .btn {
