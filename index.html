@@ -477,29 +477,9 @@
                 <use href="/images/sprite.svg#icon-close_40px"></use>
             </svg> </button>
         <h1 class="modal-name">Форма заявки</h1>
-    <ul class="modalMap__box">
-        <li class="modalMap__item">
-            <h2 class="modalMap__itemTitle">Chicago</h2>
-            <div id="Chicago" class="mapBox"></div>
-            <a class="contacts-social__tel contacts-social__map link" href="tel:+610383766284">+61(0) 383 766 284</a>
-            <a class="contacts-social__mail contacts-social__map link"
-                href="mailto:noreply@envato.com">noreply@envato.com</a>
-        </li>
-        <li class="modalMap__item">
-            <h2 class="modalMap__itemTitle">New York</h2>
-            <div id="NewYork" class="mapBox"></div>
-            <a class="contacts-social__tel contacts-social__map link" href="tel:+610383766284">+61(0) 383 766 284</a>
-            <a class="contacts-social__mail contacts-social__map link"
-                href="mailto:noreply@envato.com">noreply@envato.com</a>
-        </li>
-        <li class="modalMap__item">
-            <h2 class="modalMap__itemTitle modalMap__itemTitle--franchise">Los Angeles</h2>
-            <div id="LosAngeles" class="mapBox"></div>
-            <a class="contacts-social__tel contacts-social__map link" href="tel:+610383766284">+61(0) 383 766 284</a>
-            <a class="contacts-social__mail contacts-social__map link"
-                href="mailto:noreply@envato.com">noreply@envato.com</a>
-        </li>
-    </ul>
+        <div id="Chicago" style="width:100%;height:400px;"></div>
+        <div id="NewYork" style="width:100%;height:400px;"></div>
+        <div id="LosAngeles" style="width:100%;height:400px;"></div>
     </div>
     <script>
         function myMap() {
@@ -517,7 +497,7 @@
             };
             var map1 = new google.maps.Map(document.getElementById('Chicago'), mapProp1);
             var map2 = new google.maps.Map(document.getElementById('NewYork'), mapProp2);
-            var map2 = new google.maps.Map(document.getElementById('LosAngeles'), mapProp3);
+            var map3 = new google.maps.Map(document.getElementById('LosAngeles'), mapProp3);
         }
     </script>
     <script async
